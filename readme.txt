@@ -1,20 +1,13 @@
-Sistem Kebun Binatang Yumna's Zoo
-Proyek web sederhana yang dibangun untuk mendemonstrasikan konsep Inheritance (Pewarisan), dengan studi kasus pengelolaan kebun binatang.
+🦁 Sistem Kebun Binatang Yumna's Zoo
+Aplikasi web sederhana untuk mendemonstrasikan OOP (Inheritance) PHP, di mana class induk Hewan mewariskan sifat ke class Karnivora, Herbivora, dan Omnivora.
 
-Proyek ini menggunakan class induk Hewan yang mewariskan sifat-sifat dasarnya ke class turunan yang lebih spesifik, yaitu Karnivora, Herbivora, dan Omnivora.
+✨ Fitur Utama
+Registrasi & Upload: Pengunjung mendaftar dengan mengupload Foto Profil (masuk folder images) dan Dokumen Tiket (masuk folder files).
+Zona & Favorit (Session): Menampilkan hewan per zona. Pengunjung bisa menandai hewan "Favorit" yang disimpan sementara menggunakan Session (reset saat logout).
+Riwayat Kunjungan (Cookie): Mencatat dan menampilkan waktu kunjungan terakhir pengguna menggunakan Cookie.
+Manajemen Pengunjung: Halaman admin untuk melihat daftar, unduh dokumen, serta Edit dan Hapus data pengunjung.
 
-✨ Fitur-Fitur Utama
-Registrasi Pengunjung: Pengunjung dapat mendaftarkan nama mereka dan memilih zona yang akan dikunjungi.
-
-Halaman Zona: Menampilkan hewan-hewan yang ada di zona pilihan pengunjung, serta menampilkan hewan di zona lainnya sebagai rekomendasi.
-
-Manajemen Pengunjung: Terdapat halaman khusus untuk melihat seluruh pengunjung yang terdaftar, lengkap dengan fitur untuk Mengedit dan Menghapus data pengunjung (CRUD).
-
-💻 Teknologi yang Digunakan
-PHP: Digunakan untuk semua logika backend dan penerapan konsep OOP (Class, Object, Inheritance, dll.).
-
-MySQL (SQL): Digunakan sebagai database untuk menyimpan data hewan (termasuk emoticon) dan data pengunjung.
-
-HTML & CSS: Untuk membangun struktur dan styling halaman web.
-
-JavaScript: Digunakan untuk fungsionalitas interaktif, seperti tombol toggle audio.
+💻 Teknologi
+PHP Native: Logika OOP, Session, Cookie, & File Handling.
+MySQL: Database hewan (termasuk emoticon) & pengunjung.
+HTML/CSS/JS: Tampilan antarmuka & interaksi sederhana.
